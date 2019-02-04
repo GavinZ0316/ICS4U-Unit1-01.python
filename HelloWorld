@@ -1,0 +1,9 @@
+#Created by Gavin Zhou
+#Created on 2019-02-04
+#This program can print out "Hello World"
+
+import ui
+print('Hello World!')
+v = ui.load_view()
+v.present('full_screen')
+
